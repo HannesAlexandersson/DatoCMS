@@ -1,0 +1,13 @@
+
+.vector1{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.vector2{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
