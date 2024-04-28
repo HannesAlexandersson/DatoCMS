@@ -1,13 +1,27 @@
+body,html{
+    margin: 0 auto;
+    padding: 0;
+}
 
-.vector1{
-
+a{
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+.vector1 {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: -99;
 }
-.vector2{
-
+.vector2 {
+    z-index: -99;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     right: 0;
+    top: 100%;
 }
